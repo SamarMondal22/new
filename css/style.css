@@ -1,0 +1,994 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/*************************navder start**************************/
+.nav{
+	position: relative;
+	width: 100%;
+	background-color:#06113c;
+	padding: 10px;
+}
+.nav .navber{
+	position: relative;
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.nav .navber .logo{
+	width: 30%;
+}
+.nav .navber .logo a{
+	cursor: move;
+}
+.nav .navber .logo a img{
+	width: 70px;
+	height: 60px;
+}
+.nav .navber .manu{
+	width: 70%;
+	text-align: right;
+}
+.nav .navber .manu ul{
+	list-style: none;
+	margin-top: 18px;
+}
+.nav .navber .manu ul li{
+	display: inline-block;
+}
+.nav .navber .manu ul li a{
+	text-decoration: none;
+	padding: 26px;
+	color: #fff;
+	font-family: monospace;
+	font-size: 20px;
+	cursor: wait;
+	font-weight: bold;
+}
+.nav .navber .manu ul li a:hover{
+	color: yellow;
+	border-bottom: 2px solid yellow;
+
+
+}
+
+
+/***************************banner start*************************************/
+
+.banner{
+	width: 100%;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+}
+
+.absoulte{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	transform: translateY(-50%);
+}
+.absoulte h3{
+	font-family: sans-serif;
+    color: #fff;
+    font-size: 53px;
+}
+.absoulte h1{
+	font-family: sans-serif;
+    color: #fff;
+    font-size: 80px;
+    line-height: 100px;
+    text-shadow: 5px 5px 5px;
+}
+.absoulte h1 span{
+	color: yellow;
+}
+.absoulte p{
+	font-family: sans-serif;
+    color: #cbc1c1;
+    font-size: 18px;
+    line-height: 26px;
+}
+.absoulte h5{
+	font-size: 25px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 60px;
+}
+.btm{
+	margin-top: 40px;
+}
+.btm a{
+	text-decoration: none;
+    background-color: yellow;
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 23px;
+    font-family: sans-serif;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.btm a:hover{
+	background-color:#182865;
+	color: yellow;
+	border-style: dotted;
+	cursor: progress;
+	border-width: 2px;
+	font-family: monospace;
+	border-color: yellow;
+	font-size: 18px;
+	font-weight: normal;
+}
+/******************************banner end******************************************/
+.special{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.special .catagoris{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.special .catagoris h2{
+	font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+.special .catagoris h2 span{
+	font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: blue;
+}
+.special .catagoris p{
+	font-family: sans-serif;
+    font-size: 16px;
+    width: 50%;
+    margin: 10px 0;
+}
+
+
+
+
+
+.special .catagoris .image{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.special .catagoris .image .image-2{
+	position: relative;
+    width: 33.33%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.special .catagoris .image .image-2 .massagers{
+	overflow: hidden;
+	width: 90%;
+}
+.special .catagoris .image .image-2 .massagers a img{
+	width: 100%;
+	transition: 0.8s;
+}
+.image-2 .massagers:hover a img{
+	transition: 0.8s;
+	transform: scale(1.1);
+	cursor: progress;
+}
+.special .catagoris .image .image-2 h4{
+	text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 3;
+}
+
+
+/************************special catagoris end***************************************/
+.special-1{
+	width: 100%;
+	position: relative;
+	background-color:#2c3a75;
+	padding: 5px 0 0 0;
+}
+.introduction{
+	position: relative;
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.introduction .text{
+	width: 60%;
+	margin-top: 100px;
+}
+.introduction .text h3{
+	color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 70%;
+    line-height: 80px;
+}
+.introduction .text h3 span{
+	color: yellow;
+    font-family: sans-serif;
+    font-size: 80px;
+}
+.introduction .image{
+	width: 40%;
+	text-align: right;
+	z-index: 9;
+}
+.introduction .text p{
+	font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.introduction .text .btm-2{
+	margin-top: 50px;
+}
+.introduction .text .btm-2 p{
+	background-color: yellow;
+    padding: 15px 30px;
+    display: inline-block;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.introduction .text .btm-2 p:hover{
+	background-color:#2c3a75;
+	color: #fff;
+	border-style: dotted;
+	border-color: #fff;
+	border-width: 2px;
+	font-family: monospace;
+}
+.mission{
+	position: absolute;
+    top: 66%;
+    left: 47%;
+    width: 33%;
+    background-color: yellow;
+    padding: 22px;
+}
+.mission h2{
+	font-family: sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+.mission p{
+	font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/***************************introduction end*********************************/
+
+
+
+.latest{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.latest .latest-products{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+.latest .latest-products h3{
+	font-family: sans-serif;
+    font-size: 35px;
+}
+.latest .latest-products h3 span{
+	color: blue;
+}
+.latest .latest-products p{
+	width: 60%;
+    margin: 20px auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.latest .latest-products .products{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.latest .latest-products .products .image{
+	width: 25%;
+	padding: 10px;
+}
+.latest .latest-products .products .image .background-yellow{
+	background-color:#dcef14;
+	padding: 20px 5px 72px 5px;
+	overflow: hidden;
+
+}
+.products .image .background-yellow img{
+	width: 100%;
+	height: 350px;
+	transition: 0.8s;
+
+}
+.products .image .background-yellow:hover img{
+	transition: 0.8s;
+	transform: scale(1.1);
+}
+.image p{
+	font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+.image p span{
+	color: blue;
+}
+.products .image .background-blue img{
+	width: 100%;
+	height: 350px;
+	transition: 0.8s;
+}
+.products .image .background-blue:hover img{
+	transition: 0.8s;
+	transform: scale(1.1);
+}
+.products .image .background-blue{
+	background-color: #2c3a75;
+	padding: 5px 5px 72px 5px;
+	overflow: hidden;
+}
+.image .yellow{
+	font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+.image .yellow span{
+	color: yellow;
+}
+.latest .latest-products .pro-btm{
+	margin-top: 30px;
+}
+.latest .latest-products .pro-btm h4{
+	background-color: #e9ff00;
+    padding: 15px 25px;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.latest .latest-products .pro-btm h4:hover{
+	background-color: white;
+	border: solid 1px;
+	font-weight: normal;
+	cursor:progress;
+}
+/**************************latest products end************************************/
+
+
+.success{
+	width: 100%;
+	background-color:#2c3a75;
+	margin-top: 30px;
+	padding: 50px;
+}
+.story{
+	max-width: 1400px;
+	margin: 0 auto;
+	text-align:center;
+}
+.success .story h3{
+	width: 30%;
+    margin: 0 auto;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+
+}
+.success .story h3 span{
+	color: yellow;
+}
+
+
+.box{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box .little-box{
+	width: 32.33%;
+	background-color: #44559c;
+	margin: 5px;
+}
+.box .little-box .details{
+	width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+.details h2{
+	font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.details p{
+	font-family: sans-serif;
+    font-size: 17px;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: white;
+}
+.details i{
+	margin-left: 60%;
+    font-size: 60px;
+    color: yellow;
+}
+
+ .details .image{
+	position: absolute;
+    top: -79px;
+    left: 0;
+}
+
+
+
+
+.alert{
+	padding: 20px;
+	color: white;
+}
+.closebtn{
+	margin-left: 15px;
+	color: black;
+	font-weight: bold;
+	float: right;
+	font-size: 25px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.closebtn:hover{
+	color: white;
+	background-color: black;
+	transition: 0.8s;
+}
+
+/*********************** meet the trainer*****************************************/
+
+
+ .story .etiam-text{
+	width: 100%;
+	position: relative;
+	margin-top: 25px;
+}
+.etiam-text h2{
+	font-family: sans-serif;
+	font-size: 40px;
+}
+.etiam-text h2 SPAN{
+	color: blue;
+}
+.etiam-text p{
+	font-family: sans-serif;
+    font-size: 18px;
+    width: 60%;
+    margin: 10px auto 20px;
+    line-height: 1.5;
+}
+
+.etiam-text .trainer-img{
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.etiam-text .trainer-img .trainer-1{
+	width: 25%;
+	overflow: hidden;
+}
+.etiam-text .trainer-img .trainer-1 img{
+	width: 300px;
+	height: 411px;
+	border: 5px solid yellow;
+	border-radius: 5px;
+	
+}
+.etiam-text .trainer-img .trainer-1:hover img{
+	box-shadow: 2px 2px 2px 2px #00000052;
+	border-style: none;
+	transition: 0.8s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.etiam-text .trainer-img .trainer-1:hover .zero-opacity{
+	opacity: 1;
+	background-color: black;
+	color: white;
+	transition: 0.8s;
+	border-radius:10px;
+	cursor: pointer;
+	box-shadow:2px 2px 2px 2px darkred;
+} 
+.zero-opacity {
+	position: relative;
+    opacity: 0;
+    transition: 0.8s;
+    width: 300px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.zero-opacity h4{
+	font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.zero-opacity p{
+	font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.zero-opacity span i{
+	color: blue;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/**********************spoting teams****************************************/
+
+.story .athletes{
+	margin-top: 30px;
+}
+.story .athletes h2{
+	font-family: monospace;
+  font-size: 30px;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.story .athletes img{
+	width: 100%;
+  box-shadow: 2px 2px 20px 3px #00000052;
+  margin: 20px auto;
+}
+/**************************NUTONEFITNESS********************************/
+
+
+.ntn-content{
+		width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.ntn-content i{
+		font-size: 25px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
+.ntn-content span{
+		font-family: sans-serif;
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+}
+.ntn-content .ntn-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+	align-items: center;
+}
+.ntn-content .ntn-flex .ntn-img{
+		width: 25%;
+		align-items: center;
+}
+.ntn-content .ntn-flex .ntn-img img{
+	width: 80%;
+}
+
+.fotor{
+	background-color:#06113c;
+	padding: 25px;
+}
+
+.story .fotor-content{
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+	color: white;
+
+}
+.story .fotor-content h2{
+	font-family: sans-serif;
+	font-size: 30px;
+}
+.story .fotor-content h2 span{
+	color: yellow;
+}
+.story .fotor-content p{
+	font-family: sans-serif;
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+
+
+.form{
+	width: 100%;
+	margin:35px auto 45px;
+}
+.form form{
+	margin:20px auto 0;
+	width: 40%;
+}
+
+.form form input{
+	width: 70%;
+	height: 41px;
+	border: 0;
+	padding: 0 15px;
+}
+.form form .input{
+	width: 30%;
+	background-color: yellow;
+	margin-left:-4px;
+
+}
+
+
+
+.fotor-flex{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.fotor-flex .fotor-logo{
+	width: 25%;
+	margin-top: 20px;
+}
+.fotor-flex .fotor-logo img{
+	width: 30%;
+}
+
+
+
+.join-nutone{
+	width: 25%;
+	margin-top: 20px;
+	text-align: left;
+}
+.join-nutone ul{
+	list-style: none;
+}
+.join-nutone ul li{
+	font-family: sans-serif;
+	padding: 5px;
+}
+.join-nutone ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+.join-nutone ul li a:hover{
+	color: blue;
+}
+
+
+.ABOUT-Nutone{
+	width: 25%;
+	margin-top: 20px;
+	text-align: left;
+}
+.ABOUT-Nutone ul{
+	list-style: none;
+}
+.ABOUT-Nutone ul li{
+	font-family: sans-serif;
+	padding: 5px;
+}
+.ABOUT-Nutone ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+.ABOUT-Nutone ul li:hover a{
+	color: blue;
+}
+
+.Follow-Us{
+	width: 25%;
+	margin-top: 20px;
+	text-align: left;
+}
+.Follow-Us ul{
+	list-style: none;
+}
+.Follow-Us ul li{
+	padding: 5px;
+}
+.Follow-Us ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.Follow-Us ul li:hover a{
+	color: blue;
+}
+.Follow-Us span{
+	width: 100%;
+	overflow: hidden;
+}
+.Follow-Us span a i{
+		padding: 10px;
+    color: yellow;
+    font-size: 30px;
+}
+.Follow-Us span a:hover i{
+	color: white;
+}
+
+
+
+
+
+
+.end{
+		background-color: #06113c;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 11px 25px 53px white;
+}
+.end h1{
+		font-size: 35px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 6px 4px 1px #7a1808;
+    font-family: monospace;
+}
+
+
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background-color:#3c4567;
+}*/
+
+
+
+
+@media(max-width: 600px){
+		.nav .navber .logo{
+			width: 100%;
+		}
+		.nav .navber .manu{
+			display: none;
+		}
+		.absoulte h3{
+			font-size: 15px;
+		}
+		.absoulte{
+			top: 50%;
+		}
+		.absoulte h1{
+			font-size: 23px;
+			line-height: 35px;
+		}
+		.absoulte p{
+			width: 81%;
+		  margin-top: 10px;
+		  font-size: 14px;
+		  line-height: 17px;
+		}
+		.absoulte h5{
+			font-size: 16px;
+		  width: 50%;
+		  line-height: normal;
+		  margin-top: 10px;
+		}
+		.btm{
+			margin-top: 8px;
+		}
+		.btm a{
+			font-size: 12px;
+		  font-family: sans-serif;
+		  padding: 9px;
+		}
+		.special .catagoris{
+			text-align: center;
+		}
+		.special .catagoris h2{
+			font-size: 25px;
+		}
+		.special .catagoris h2 span{
+			font-size: 22px;
+		}
+		.special .catagoris p{
+			width: 80%;
+		   margin: 13px auto;
+		}
+		.special .catagoris .image .image-2{
+			width: 100%;
+			margin: 15px;
+		}
+		.special .catagoris .image .image-2 .massagers{
+			width: 100%;
+		}
+		.introduction .text{
+			width: 100%;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.introduction .text h3{
+			width: 100%;
+			font-size: 20px;
+		  line-height: normal;
+		  margin: 20px 0;
+		}
+		.introduction .text h3 span{
+			font-size: 20px;
+		}
+		.introduction .text p{
+			width: 80%;
+		  margin: 0 auto;
+		  line-height: 1.5;
+		  font-size: 15px;
+		}
+		.introduction .text .btm-2{
+			width: 25%;
+		   margin: 0 auto;
+		   margin-top: 20px;
+		}
+		.introduction .text .btm-2 p{
+			padding: 10px 20px;
+			font-size: 11px;
+		}
+		.introduction .image{
+			width: 100%;
+		}
+		.introduction .image img{
+			width: 100%;
+		}
+		.mission{
+			width: 100%;
+		  z-index: 99;
+		  left: 0;
+		  top: 86%;
+		}
+		.latest .latest-products{
+			margin-top: 55px;
+		}
+		.latest .latest-products h3{
+			font-size: 25px;
+		}
+		.latest .latest-products p{
+			font-size: 15px;
+		}
+		.latest .latest-products .products .image{
+			width: 100%;
+			padding: 15px;
+		}
+		.latest .latest-products .pro-btm{
+			margin: 0;
+		}
+		.latest .latest-products .pro-btm h4{
+			font-size: 11px;
+    	padding: 10px 20px;
+		}
+		.success .story h3{
+			width: 100%;
+    	font-size: 25px;
+		}
+		.box .little-box{
+			width: 100%;
+			margin:40px 0;
+		}
+		.etiam-text h2{
+			font-size: 25px;
+		}
+		.etiam-text p{
+			font-size: 15px;
+		}
+		.etiam-text .trainer-img .trainer-1{
+			width: 100%;
+			display: flex;
+		}
+		.zero-opacity{
+			height: auto;
+		}
+		.etiam-text .trainer-img .trainer-1:hover .zero-opacity{
+			padding: 40px 0;
+		}
+		.story .athletes h2{
+			width: 100%;
+    	font-size: 25px;
+		}
+		.ntn-content i{
+			font-size: 20px;
+		}
+		.ntn-content span{
+			font-size: 25px;
+		}
+		.ntn-content .ntn-flex .ntn-img{
+			width: 100%;
+			margin: 10px 0;
+		}
+		.products .image .background-blue img{
+			height: auto;
+		}
+		.story .fotor-content h2{
+			width: 100%;
+			font-size: 25px;
+		}
+		.story .fotor-content p{
+			font-size: 15px;
+		}
+		.form form{
+			width: 100%;
+		}
+		.fotor{
+			margin-top: 40px;
+		}
+		.fotor-flex .fotor-logo{
+			width: 100%;
+		}
+		.join-nutone{
+			width: 100%;
+			text-align: center;
+		}
+		.ABOUT-Nutone{
+			width: 100%;
+    	text-align: center;
+		}
+		.Follow-Us{
+			width: 100%;
+			text-align: center;
+		}
+		.join-nutone ul li a{
+			font-size: 15px;
+		}
+		.end h1{
+			font-size: 25px;
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
